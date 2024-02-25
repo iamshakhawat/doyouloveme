@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #ffffff;
+}
+.box {
+  transition: 0.5s all ease;
+  padding: 20px;
+  background: #fff;
+  position: relative;
+}
+.box .teddy {
+  height: 250px;
+}
+h2 {
+    text-align: center;
+    margin-top: -20px;
+  margin-bottom: 10px;
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40px;
+}
+.confetti1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 150px;
+}
+.confetti2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 150px;
+    transform: scaleX(-1);
+}
+.confetti3{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 150px;
+    transform: rotate(180deg);
+}
+.confetti4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 150px;
+    transform: scaleY(-1);
+}
+.con{
+    display: none;
+}
+.btn_grp{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.btn{
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #babfc3;
+    padding: 7px 16px;
+    min-height: 36px;
+    min-width: 36px;
+    color: #202223;
+    background: #ffffff;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 0px;
+    transition: 0.5s ease;
+}
+.yes {
+    background-color: #005fb2;  
+    border-color: #005fb2;
+    color: #fff;
+    margin-left: -100px;
+}
+
+.no {
+    position: absolute;
+    background-color: #dd0404;  
+    border-color: #dd0404;
+    color: #fff;
+    bottom: 20px;
+    margin-right: -100px;
+} 
+
